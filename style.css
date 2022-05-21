@@ -1,0 +1,37 @@
+.name {
+  color: rgb(255, 0, 0);
+  display: flex;
+  font-size: xx-large;
+  margin-left: 10%;
+  margin-top: 4cm;
+}
+.Dabii {
+  display: flex;
+  position: absolute;
+  right: 0%;
+  max-width: 450px;
+}
+.home__social-icon {
+  color: rgb(207, 23, 23);
+  height: 50cm;
+  max-width: 100%;
+  font-size: xx-large;
+  margin-left: 10%;
+}
+a:hover+.discord{
+  color: rgb(124, 45, 45);
+  opacity: 100%;
+  color: red;
+}
+a:hover.discord {
+  opacity: 100%;
+  color: red;
+}
+
+.discord {
+  opacity: 0%;
+}
+a:hover {
+  opacity: 100%;
+  color: red;
+}
